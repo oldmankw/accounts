@@ -1,2 +1,4 @@
 docker build . -t eazybytes/accounts //command to build docker images
 docker run -p 8080:8080 eazybytes/accounts
+
+docker tag eazybytes/loans mrwanda/loansapp:v1.0 // create an image ready to push
